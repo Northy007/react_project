@@ -28,7 +28,14 @@ function App() {
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         link="https://img.kapook.com/u/2017/wanwanat/93_bualoy/loy4_1.jpg"
       />
+      <Box
+        type="อาหารหวาน"
+        food="ซาลาเปา"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        link="https://readspoonful.co/wp-content/uploads/2021/01/Nai-Wong-Bao2-1.jpg"
+      />
     </div>
+
   );
 }
 

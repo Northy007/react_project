@@ -9,29 +9,32 @@ class score extends Component {
     constructor(props) {
         super(props);
         this.num = 0;
-        this.current = "";
+
     }
     vote = () => {
-        if (this.num <= 10) {
+        if (this.num >= 10) {
+            this.max();
+        }
+        if (this.num < 10) {
             this.num += 1;
             this.setState({ msg: this.num });
         }
         if (this.num >= 10) {
             this.setState({ msg: "MAX" });
-
-        }
-        if (this.num > 10) {
-            this.max();
         }
 
     }
     unvote = () => {
+        if (this.num <= 0) {
+            this.min();
+        }
         if (this.num > 0) {
             this.num -= 1;
             this.setState({ msg: this.num });
         }
-        if (this.num === 0) {
+        if (this.num <= 0) {
             this.setState({ msg: "MIN" });
+
         }
     }
     min = () => {
