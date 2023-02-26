@@ -1,0 +1,40 @@
+.body {
+    height: auto;
+    width: 100%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 0px;
+}
+
+.info {
+    display: grid;
+    grid-template-areas:
+        "text img"
+        "text img"
+        "text img"
+        "s s";
+}
+
+.detail {
+    grid-area: text;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+img {
+    grid-area: img;
+    width: 200px;
+    padding: 20px;
+}

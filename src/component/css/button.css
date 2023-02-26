@@ -1,0 +1,9 @@
+button {
+    width: auto;
+    font-size: auto;
+    padding: 10px;
+    height: min-content;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
